@@ -5,37 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>goit-markup-hw-02</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- шапка сайта -->
     <header>
         <nav>
-            <a href="">
-                <img src="./photo/logo/logo.svg" alt="логотип компании">
+            <a class="logo-item" href="">
+                <img class="logo-img" src="../goit-markup-hw-01/photo/header/logo.svg" alt="логотип компании">
             </a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="navigation">
+                <li class="navigation-link">
+                    <a class="navigation-link-item" href="">Студия</a>
+                </li>
+                <li class="navigation-link">
+                    <a class="navigation-link-item" href="">Портфолио</a>
+                </li>
+                <li class="navigation-link">
+                    <a class="navigation-link-item" href="">Контакты</a>
+                </li>
             </ul>
-            <address>
-                <a href="info@devstudio.com">info@devstudio.com</a>
+            <address class="address">
+                <a class="address-list" href="info@devstudio.com">info@devstudio.com</a>
                 <a href="+380961111111">+38 096 111 11 11</a>
             </address>
         </nav>
     </header>
 
     <main>
-        
+        <!-- ФИЛЬТРЫ -->
         <section>
             <h1 hidden>портфолио</h1>
             <ul>
-                <li>Все</li>
-                <li>Веб-сайты</li>
-                <li>Приложения</li>
-                <li>Дизайн</li>
-                <li>Маркетинг</li>
+                <li>
+                    <button type="button">Все</button>
+                </li>
+                <li>
+                    <button type="button">Веб сайты</button>
+                </li>
+                <li>
+                    <button type="button">Приложения</button>
+                </li>
+                <li>
+                    <button type="button">Дизайн</button>
+                </li>
+                <li>
+                    <button type="button">Маркетинг</button>
+                </li>
             </ul>
+
+            <!-- НАБОР КАРТОЧЕК -->
             <ul>
                 <li>
                     <img src="./photo/portpholio/img-1.jpg" alt="" width="370" height="294">
@@ -87,8 +107,9 @@
     </main>
 
     <footer>
+        <!-- ФУТЕР -->
         <a href="">
-            <img src="./photo/logo/logo.svg" alt="логотип компании">
+            <img src="../goit-markup-hw-01/photo/header/logo.svg" alt="логотип компании">
         </a>
         <address>
             г. Киев, пр-т Леси Украинки, 26

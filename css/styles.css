@@ -1,69 +1,26 @@
-.page-header {
-    background-color: #FFFFFF;
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #212121;
+  }
+
+  body {
+      font-family: var(--main-font);
+      
+  }
+
+  /* HEADER */
+
+.navigation-link-item {
+font-weight: 500;
+font-size: 14px;
+line-height: 1,143;
+letter-spacing: 0.02em;
 }
-.logo {
-    background-color: #2196F3;
-}
-.nav-studio {
-    color: #2196F3;
-}
-.nav-photo {
-    color: #000000;
-}
-.contacts {
-    color: #000000;
-}
-.auth-nav a {
-    color: #757575;
-}
-.first-img {
-    background-color: rgba(47, 48, 58, 0.8);
-}
-.dop-information img {
-    background-color: #F5F4FA;
-}
-.dop-information h3 {
-    color: #212121;
-}
-.dop-information p {
-    color: #757575;
-}
-.our-team {
-    background-color: #F5F4FA;
-}
-.our-team h3 {
-    color: #212121;
-}
-.our-team p {
-    color: #757575;
-}
-.our-clients h2 {
-    color: #212121;
-}
-.client-one {
-    background-color: #AFB1B8;
-}
-.client-two {
-    background-color: #AFB1B8;
-}
-.client-three {
-    background-color: #AFB1B8;
-}
-.client-four {
-    background-color: #2196F3;
-}
-.client-five {
-    background-color: #AFB1B8;
-}
-.client-six {
-    background-color: #AFB1B8;
-}
-.page-footer {
-    background-color: #2F303A;
-}
+
 .address {
-    color: #FFFFFF;
-}
-.information {
-    color: rgba(255, 255, 255, 0.6);
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
