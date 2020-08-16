@@ -11,59 +11,61 @@
 <body>
     <!-- шапка сайта -->
     <header class="page-header">
-        <div class="">
-            <nav>
-                <span class="logo">
-                    <a class="first-item" href="">Web</a>
-                </span>
-                <span class="logo">
-                    <a class="secondary-item" href="">Studio</a>
-                </span>
+        <div class="container page-header-container">
+            <nav class="logo-list">
+                <div class="logo">
+                    <span class="">
+                        <a class="first-item" href="">Web</a>
+                    </span>
+                    <span class="">
+                        <a class="secondary-item" href="">Studio</a>
+                    </span>
+                </div>
                 <ul class="navigation">
-                    <li>
-                        <a class="link" href="../goit-markup-hw-01/">Студия</a>
+                    <li class="navigation-list-item">
+                        <a class="link" href="../goit-markup-hw-01/index.html">Студия</a>
                     </li>
-                    <li>
+                    <li class="navigation-list-item">
                         <a class="link current" href="">Портфолио</a>
                     </li>
-                    <li>
+                    <li class="navigation-list-item">
                         <a class="link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
                 <address class="auth">
-                    <a class="auth-nav" href="info@devstudio.com">info@devstudio.com</a>
-                    <a class="auth-nav" href="+380961111111">+38 096 111 11 11</a>
+                    <a class="auth-nav current" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="auth-nav" href="tel:+380961111111">+38 096 111 11 11</a>
                 </address>
         </div>
     </header>
     <main>
         <!-- ФИЛЬТРЫ -->
         <section>
-           <div class="">
+           <div class="container filter-item-container">
             <h1 hidden>портфолио</h1>
             <ul class="filter">
-                <li>
+                <li class="filter-list-item">
                     <button class="filter-list current" type="button">Все</button>
                 </li>
-                <li>
+                <li class="filter-list-item">
                     <button class="filter-list" type="button">Веб сайты</button>
                 </li>
-                <li>
+                <li class="filter-list-item">
                     <button class="filter-list" type="button">Приложения</button>
                 </li>
-                <li>
+                <li class="filter-list-item">
                     <button class="filter-list" type="button">Дизайн</button>
                 </li>
-                <li>
+                <li class="filter-list-item">
                     <button class="filter-list" type="button">Маркетинг</button>
                 </li>
             </ul>
            </div>
 
             <!-- НАБОР КАРТОЧЕК -->
-            <div class="">
-                <ul>
+            <div class="container portfolio-container">
+                <ul class="portfolio-list">
                     <li>
                         <a class="photo-list" href="">
                             <img src="./photo/portpholio/img-1.jpg" alt="" width="370" height="294">
@@ -145,8 +147,8 @@
                     г. Киев, пр-т Леси Украинки, 26
                 </address>
                 <address class="authority">
-                    <a  class="auth-nav" href="info@example.com">info@example.com</a>
-                    <a  class="auth-nav" href="+380991111111">+38 099 111 11 11</a>
+                    <a  class="auth-nav" href="mailto:info@example.com">info@example.com</a>
+                    <a  class="auth-nav" href="tel:+380991111111">+38 099 111 11 11</a>
                 </address>
             </div>
     </footer>
